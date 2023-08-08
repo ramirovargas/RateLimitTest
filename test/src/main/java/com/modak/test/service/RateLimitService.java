@@ -21,7 +21,7 @@ public class RateLimitService {
     public boolean allowRequest(String recipient, String notificationType) throws RateLimitExceededException {
         RateLimitRule rule = rateLimitConfig.getRule(notificationType);
         if (rule == null) {
-            return true; // No rate limit rule, allow the request
+            return true;
         }
 
         Instant now = Instant.now();
