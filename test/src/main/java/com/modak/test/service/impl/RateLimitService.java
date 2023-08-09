@@ -1,4 +1,4 @@
-package com.modak.test.service;
+package com.modak.test.service.impl;
 
 import com.modak.test.configuration.RateLimitConfig;
 import com.modak.test.exception.RateLimitExceededException;

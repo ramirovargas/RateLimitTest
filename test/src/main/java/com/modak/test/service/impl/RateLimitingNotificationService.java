@@ -1,8 +1,9 @@
-package com.modak.test.service;
+package com.modak.test.service.impl;
 
 import com.modak.test.exception.RateLimitExceededException;
+import com.modak.test.service.NotificationService;
 
-public class RateLimitingNotificationService implements NotificationService{
+public class RateLimitingNotificationService implements NotificationService {
     private NotificationService wrappedService;
     private RateLimitService rateLimitService;
 

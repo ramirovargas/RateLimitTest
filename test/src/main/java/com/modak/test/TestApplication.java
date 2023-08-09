@@ -3,9 +3,9 @@ package com.modak.test;
 import com.modak.test.configuration.Gateway;
 import com.modak.test.configuration.RateLimitConfig;
 import com.modak.test.service.NotificationService;
-import com.modak.test.service.NotificationServiceImpl;
-import com.modak.test.service.RateLimitService;
-import com.modak.test.service.RateLimitingNotificationService;
+import com.modak.test.service.impl.NotificationServiceImpl;
+import com.modak.test.service.impl.RateLimitService;
+import com.modak.test.service.impl.RateLimitingNotificationService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
