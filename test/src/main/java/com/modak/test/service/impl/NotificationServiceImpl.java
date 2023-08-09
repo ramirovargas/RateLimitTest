@@ -1,6 +1,5 @@
 package com.modak.test.service.impl;
 
-import com.modak.test.configuration.Gateway;
 import com.modak.test.service.NotificationService;
 
 public class NotificationServiceImpl implements NotificationService {

@@ -1,6 +1,6 @@
 package com.modak.test;
 
-import com.modak.test.configuration.Gateway;
+import com.modak.test.service.impl.Gateway;
 import com.modak.test.configuration.RateLimitConfig;
 import com.modak.test.service.NotificationService;
 import com.modak.test.service.impl.NotificationServiceImpl;
